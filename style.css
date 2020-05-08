@@ -1,0 +1,389 @@
+
+
+.blue
+{
+
+background-color: #6A5ACD;
+height: 50px;
+width: 100%;
+
+
+
+}
+
+.fa
+
+{
+ padding : 12px;
+ font-size: 0.5px;
+ width: 5px;
+ margin: 10px;
+ text-decoration: none;
+ border-radius: 50%;
+ position: absolute;
+ 
+
+}
+
+.fa:hover
+{
+
+opacity: 0.7;
+
+
+}
+.fa-facebook
+{
+
+
+
+	background: #3b5998;
+	color: white;
+	position: absolute;
+    left: 5px;
+
+
+}
+.fa-twitter
+{
+background: #55acee;
+color: white;
+position: absolute;
+left: 40px;
+
+
+}
+.fa-youtube
+{
+
+
+background: #bb0000;
+color: white;
+position: absolute;
+left: 80px;
+
+
+
+}
+.fa-instagram
+{
+	background: #4682B4;
+	color: white;
+	position: absolute;
+	left: 120px;
+
+
+}
+.fa-whatsapp
+{
+
+
+	background: #43e700;
+	color: white;
+	position: absolute;
+    left: 160px;
+
+
+
+}
+
+p
+{
+
+position: absolute;
+font-size: 15px;
+top: 20px;
+left: 250px;
+color: white;
+text-align: center;
+
+}
+.btn-ukdonor
+{
+
+position: absolute;
+right: 210px;
+margin: 10px;
+color: green;
+padding: 5px;
+
+
+}
+.btn-donate
+{
+
+position: absolute;
+right: 113px;
+margin: 10px;
+color: green;
+padding: 5px;
+
+
+}
+.btn-results
+{
+
+position: absolute;
+right: 8px;
+margin: 10px;
+color: green;
+padding: 5px;
+
+
+}
+*
+{
+	padding: 0;
+	margin: 0;
+	
+}
+
+
+
+.body
+{
+background-size: cover;
+background-position: center;
+font-family: sans-serif;
+}
+
+.menu
+{
+	background: #6A5ACD;
+	text-align: center;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+.menu ul
+{
+
+
+	display: inline-flex;
+	list-style: none;
+	color: white;
+}
+
+.menu,ul li
+{
+ 
+   	width-right: 30px;
+	margin-left: 5px;
+	padding: 10px;
+	background: white;
+	color: black;
+
+}
+
+.menu,ul li a 
+{
+
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+.active,.menu ul li:hover
+{
+
+
+    
+	background: #6A5ACD;
+	border-radius: 3px;
+	text-indent: center;
+}
+
+
+.sub-menu{
+
+
+display: none;
+}
+.menu ul li:hover .sub-menu  
+{
+
+
+display: block;
+position: absolute;
+
+margin-top: 15px;
+margin-left: -15px;
+
+
+}
+.menu ul li:hover .sub-menu ul 
+{
+
+
+
+
+
+	display: block;
+	margin: 10px;
+
+}
+.menu ul li:hover .sub-menu ul li 
+{
+
+
+
+
+	width: 120px;
+	padding: 10px;
+	border-bottom: 1px dotted #F5F5DC;
+	background: #6A5ACD;
+	border-radius: 0;
+	text-align: left;
+
+}
+.menu ul li:hover .sub-menu ul li:last-child
+{
+border-bottom: none;
+}
+.menu ul li:hover .sub-menu ul li a:hover
+{
+color: #FAEBD7;
+
+
+}
+
+img{
+
+
+	
+	padding: 10px;
+	border-radius: 50px;
+}
+
+
+.marquee
+{
+
+background-color: #6A5ACD;
+color: white;
+
+}
+.introdution
+{
+  
+text-align: center;
+padding: 20px;
+color: green;
+
+}
+ 
+ .p1
+ {
+    color: #A9A9A9;
+    padding-left: 100px;
+    padding-right: 100px;
+   padding-bottom: 30px;    
+
+
+
+ }
+
+.p2
+ {
+    color: #A9A9A9;
+    padding-left: 100px;
+    padding-right: 100px;
+   padding-bottom: 30px;    
+
+
+
+ }
+
+.p3
+ {
+    color: #A9A9A9;
+    padding-left: 100px;
+    padding-right: 100px;
+   padding-bottom: 30px;    
+
+
+
+ }
+.p4
+ {
+    color: #A9A9A9;
+    padding-left: 100px;
+    padding-right: 100px;
+   padding-bottom: 30px;    
+
+
+
+ }
+
+.icon2
+{
+
+
+	padding-bottom: 50px;
+}
+.marqueeup
+{
+
+	text-align: right;
+	width: 200px;
+	padding: 30px;
+	
+}
+
+
+.event
+{
+  
+ position: absolute;
+ padding: 5px;  
+}
+
+.mission
+{
+	text-align: center;
+}
+
+
+.gallery
+{
+
+ 
+ text-align: center;
+ padding-top: 10px;
+ padding-bottom: 15px;
+
+
+
+}
+.pics
+{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 600px){
+
+*{  
+
+	width: 200px;
+
+
+}
+
+
+
+
+
+
+
+
